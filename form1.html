@@ -1,0 +1,35 @@
+﻿<!--Форма ввода для запроса 1: показать клиентов, заключивших договор в данном году.-->
+<!DOCTYPE html>
+<html>
+<head> <!-- Техническая информация о документе -->
+<meta charset="utf-8">
+<title>Форма ввода 1</title>
+</head>
+<body align=center bgcolor=white text=black>
+<h2 align=center> <!-- Крупный заголовок -->
+База данных "Интернет-провайдер"
+</h2>
+<h3>Показать клиентов, заключивших договор в данном году.<br>
+</h3> 
+<form action="http://localhost/index.php ?" method=GET>
+Введите год:<br>
+<div align=center>
+<input type="hidden" name="number" value="1">
+<input type="text" name="year_1"><br>
+</div>
+<br>
+<table align=center border=0 width=60%>
+<tbody>
+<tr>
+<td align=center>
+<input type="reset" value="Очистить">
+</td>
+<td align=center>
+<input type="submit" value="Отправить">
+</td>
+</tr>
+</tbody>
+</table>
+</form>
+</body>
+</html>

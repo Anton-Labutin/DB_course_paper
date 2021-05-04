@@ -1,0 +1,48 @@
+﻿<!--Форма ввода для отчёта 1: найти выручку по каждому типу оборудования за данный месяц данного года.-->
+<!DOCTYPE html>
+<html>
+<head> <!-- Техническая информация о документе -->
+<meta charset="utf-8">
+<title>Форма ввода 10</title>
+</head>
+<body align=center bgcolor=white text=black>
+<h3>Найти выручку по каждому типу оборудования за данный месяц данного года.<br><br>
+</h3> 
+<form action="http://localhost/index.php" method=GET>
+<div>
+<input type="hidden" name="number" value="10">
+</div>
+<table align=center border=0 width=30%>
+<tbody>
+<tr>
+<td align=center>
+Введите месяц:<br>
+<input type=text name=month_10>
+</td>
+<td align=center>
+Введите год:<br>
+<input type=text name=year_10>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table align=center border=0 width=60%>
+<tbody>
+<tr>
+<td align=center>
+<input type=reset value=Очистить>
+</td>
+<td align=center>
+<input type=submit value=Отправить>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</form>
+<div><br>
+<a href="http://localhost/index.php ? number=0">Показать все созданные отчёты</a>
+</div>
+</body>
+</html>
